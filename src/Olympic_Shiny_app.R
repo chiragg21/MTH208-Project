@@ -7,10 +7,10 @@ library(dplyr)
 library(plotly)
 library(shinythemes)
 
-load('full_df.Rdata')
-load('GDP_final_data.Rdata')
-load('all_data_list.Rdata')
-load('GDP_COUNTRY_CODE.Rdata')
+load('Data/Rshiny_data/full_df.Rdata')
+load('Data/Rshiny_data/GDP_final_data.Rdata')
+load('Data/Rshiny_data/all_data_list.Rdata')
+load('Data/Rshiny_data/GDP_COUNTRY_CODE.Rdata')
 
 Olympic <- c("Los Angeles", "Seoul", "Barcelona", "Atlanta", "Sydney",
              "Athina", "Beijing", "London", "Rio De Janeiro", "Tokyo")
